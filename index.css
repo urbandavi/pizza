@@ -37,3 +37,20 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
+
+header{
+    background-image: url(images/pizza.jpg);
+    color: white;
+    height: 20rem;
+    background-position: center;
+    padding-top: 20px;
+    padding-left: 0.4em;
+    margin: 0px;
+}
+a:link,a:active,a:visited{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
