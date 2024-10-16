@@ -47,10 +47,24 @@ header{
     padding-left: 0.4em;
     margin: 0px;
 }
+h1{
+ color: white;
+}
+h3{
+ color: #acacac;
+ font-size: 1.075rem;
+}
+p{
+color: #ccc;
+}
 a:link,a:active,a:visited{
     color: white;
     text-decoration: none;
 }
 nav{
     float: right;
+}
+.paros_sec{
+    background-color: #222222;
+    padding: 1rem 0.5rem;
 }
