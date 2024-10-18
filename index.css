@@ -56,6 +56,8 @@ h3{
 }
 p{
 color: #ccc;
+padding-top: 0.2rem;
+font-size: 1.12rem;
 }
 a:link,a:active,a:visited{
     color: white;
@@ -66,5 +68,19 @@ nav{
 }
 .paros_sec{
     background-color: #222222;
-    padding: 1rem 0.5rem;
+    
 }
+.sec_padding{
+    padding: 1.2rem 0.6rem;
+}
+.first_sec_cim{
+    text-align: right;
+}
+#st_sec_p{
+    padding-top: 1.7rem;
+}
+#asztalfoglalas{
+    color: white;
+    font-size: 1.4rem;
+}
+
