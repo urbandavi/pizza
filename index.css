@@ -49,10 +49,12 @@ header{
 }
 h1{
  color: white;
+ text-align: center;
 }
 h3{
  color: #acacac;
  font-size: 1.075rem;
+ text-align: center;
 }
 p{
 color: #ccc;
@@ -68,7 +70,9 @@ nav{
 }
 .paros_sec{
     background-color: #222222;
-    
+}
+.paratlan_sec{
+    background-color: #101010;
 }
 .sec_padding{
     padding: 1.2rem 0.6rem;
