@@ -50,11 +50,17 @@ header{
 h1{
  color: white;
  text-align: center;
+ font-size: 140%;
+ font-weight: 600;
+}
+h2{
+    display: inline;
 }
 h3{
  color: #acacac;
  font-size: 1.075rem;
  text-align: center;
+ font-weight: 400;
 }
 p{
 color: #ccc;
@@ -80,11 +86,32 @@ nav{
 .first_sec_cim{
     text-align: right;
 }
+.asztalfoglalas{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline;
+}
+.nd_sec_menu_a{
+   padding: .9rem 5rem; 
+   border: 2px solid white;
+   
+}
+.nd_sec_menu_outpadd{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nd_sec_button{
+    width: 51px;
+}
 #st_sec_p{
     padding-top: 1.7rem;
+    text-align: left;
 }
-#asztalfoglalas{
-    color: white;
-    font-size: 1.4rem;
+#nd_sec_p{
+    text-align: center;
 }
+
+
 
