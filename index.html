@@ -1,49 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Piadina Pizzéria</title>
 </head>
+
 <body>
+
     <header>
-        <h2>PIZZÉRIA</h2>
-        <nav>
-            <a href="#"> KEZDŐLAP</a> /
-            <a href="#">MENÜ</a> /
-            <a href="#">RÓLUNK</a> /
-            <a href="#">KAPCSOLAT</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PIZZÉRIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">KEZDŐLAP</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MENÜ
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pizza</a></li>
+                                <li><a class="dropdown-item" href="#">Menü</a></li>
+                                <li><a class="dropdown-item" href="#">Italok</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RÓLUNK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KAPCSOLAT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="paros_sec sec_padding">
-            <h1 class="first_sec_cim" >PIADINA PIZZÉRIA</h1>
-            <h3 class="first_sec_cim">Történetünk</h3>
-            
-            <p id="st_sec_p">Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást. Illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi. </p>
-            
-            <div class="asztalfoglalas">FOGLALJ ASZTALT:</div> <div class="asztalfoglalas">+36-67-632-456</div>
-            </section>
-        <section class="paratlan_sec sec_padding" > 
-<div>        
-<h1>— MENÜ —</h1>
-<h3>Ajánlatunk</h3>
+        <section class="section-light sec_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 text-end">
+                        <h1 id="piadina-pizzeria" class="f_right">PIADINA PIZZÉRIA </h1>
+                        <h3 id="tortenetunk" class="f_right">Történetünk</h3>
+                    </div>
+                    <div class="col">
+                        <p id="tortenetunk-szoveg">Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást.
+                            Illo inventore
+                            veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia
+                            voluptas sit
+                            aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem
+                            sequi nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+                            consectetur
+                            adipisci velit sed quia non numquam eius modi. </p>
 
-<p id="nd_sec_p">Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-</div>
-<div>
-<div class="nd_sec_menu_outpadd"><a href="#" class="nd_sec_menu_a"><span class="nd_sec_button">PIZZA</span></a></div>
-<div class="nd_sec_menu_outpadd"><a href="#" class="nd_sec_menu_a"><span class="nd_sec_button">MENÜ</span></a></div>
-<div class="nd_sec_menu_outpadd"> <a href="#" class="nd_sec_menu_a"><span class="nd_sec_button">ITALOK</span></a></div>
-</div>
+                        <div id="asztalfoglalas">FOGLALJ ASZTALT: +36-67-632-456</div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="paros_sec sec_padding"></section>
-        <section class="paratlan_sec sec_padding"></section>
-    </main>
-    <footer>
+        <section class="text-center section-dark sec-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col ">
+                        <h2>— MENÜ —</h2>
+                        <h3 id="ajanlatunk">Ajánlatunk</h3>
+                        <p>Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást. Veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas
+                            sit
+                            aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem
+                            sequi nesciunt. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm">
+                        <div class="button-container">
+                            <div class="nd_sec_button"><a href="" class="nd_sec_a"><span>PIZZA</span></a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm">
+                        <div class="button-container">
+                            <div class="nd_sec_button"><a href="" class="nd_sec_a"><span>MENÜ</span></a></div>
+                        </div>
+                    </div>
 
+                    <div class="col-12 col-sm">
+                        <div class="button-container">
+                            <div class="nd_sec_button"><a href="" class="nd_sec_a"><span>ITALOK</span></a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-light sec_padding center_alignment" id="specialitasaink">
+            <div class="container">
+                <div class="row text-center ">
+                    <div class="col">
+                        <h2>— SPECIALITÁSAINK —</h2>
+                        <h3>Az ízek tökéletes összhangja</h3>
+                    </div>
+                </div>
+                <div class="row text-center g-5">
+                    <div class="col-12 col-sm-8">
+                        <div class="row g-5">
+                            <div class="col-12">
+                                <div class="picture-wrapper">
+                                    <img src="images/pizza.jpg" alt="" class="img-fluid">
+                                    <div class="title">Pizza</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="picture-wrapper">
+                                    <picture><img src="images/vegyes_zöldségsaláta_oliviaval.jpg" alt=""
+                                            class="img-fluid"></picture>
+                                    <div class="title">Vegyes zöldségsaláta olívával</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <div class="picture-wrapper">
+                                    <picture><img src="images/pizza_2.jpg" alt="" class="img-fluid"></picture>
+                                    <div class="title">Pizza</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm">
+                        <div class="row g-5">
+                            <div class="col-12">
+                                <div class="picture-wrapper">
+                                    <picture><img src="images/vörösboros_marhapecsenye.jpg" alt="" class="img-fluid">
+                                    </picture>
+                                    <div class="title">Vörösboros marhapecsenye</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="picture-wrapper">
+                                    <picture><img src="images/előétel.jpg" alt="" class="img-fluid"></picture>
+                                    <div class="title">Előétel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 text-end" id="szeretettel-varunk">
+                        <h2>SZERETETTEL VÁRUNK</h2>
+                    </div>
+                    <div class="col-12 col-sm open-table">
+                        <div>
+                            <h4>NYITVA</h4>
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Hétfő:</div>
+                            <div class="list-open">zárva</div>
+
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Kedd:</div>
+                            <div class="list-open">09:30 - 20:00</div>
+
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Szerda:</div>
+                            <div class="list-open">09:30 - 20:00</div>
+
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Csütörtök:</div>
+                            <div class="list-open">11:00 - 22:00</div>
+
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Péntek:</div>
+                            <div class="list-open">11:00 - 22:00</div>
+
+
+                        </div>
+                        <div class="open-buttom-border">
+
+                            <div class="list-open">Szo:</div>
+                            <div class="list-open">11:00 - 22:00</div>
+
+                        </div>
+                        <div id="last-open">
+
+                            <div class="list-open">Vas:</div>
+                            <div class="list-open">11:00 - 20:00</div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm">
+                        <h3 class="probald-ki--foglalj-asztalt" id="try-out-our-fud">PRÓBÁLD KI FENSÉGES ÉTELEINK</h3>
+                        <p>
+                            Kattints ide, és kezdheted is az írást. Quis autem vel eum iure reprehenderit qui in ea
+                            voluptate
+                            velit.</p>
+                        <h3 class="probald-ki--foglalj-asztalt">Foglalj asztalt itt</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center">
+        <div id="foother-text" class="container">
+            <div id="border-top-foother">
+                <div>Piadina Pizzéria, 1013 Budapest, Clark Ádám tér 1., +36-67-632-456 </div>
+                <div>Az oldalt a Webnode működteti</div>
+            </div>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
