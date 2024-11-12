@@ -66,6 +66,9 @@ section{
     display: flex;
     justify-content: center;
 }
+.galery-picture-heigth{
+    height: 2rem;
+}
 #piadina-pizzeria{
     font-size: 1.5rem;
 }
@@ -123,6 +126,7 @@ section{
     text-decoration: none;
     color: white;
 }
+
 
 /* {
     box-sizing: border-box;
