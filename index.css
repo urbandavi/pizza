@@ -66,8 +66,16 @@ section{
     display: flex;
     justify-content: center;
 }
-.galery-picture-heigth{
-    height: 2rem;
+.galery-second-pic-heigth{
+    min-height: 10.2rem;
+}
+#galery-fourth-pic-heigth
+{
+    min-height: 23.5rem;
+}
+#galery-fifth-pic-heigth{
+    min-height: 7rem;
+    min-width:  12.5rem;
 }
 #piadina-pizzeria{
     font-size: 1.5rem;
