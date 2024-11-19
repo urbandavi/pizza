@@ -68,7 +68,11 @@ section{
 }
 .galery-second-pic-heigth{
     height: 18.28rem;
-
+}
+.navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
 }
 #galery-fourth-pic-heigth
 {
@@ -76,7 +80,6 @@ section{
 }
 #galery-fifth-pic-heigth{
     max-height: 10rem;
-    width: 300%;
 }
 #piadina-pizzeria{
     font-size: 1.5rem;
