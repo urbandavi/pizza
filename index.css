@@ -10,6 +10,7 @@
 body{
     font-size: 1.075rem;
 }
+
 footer{
     background-color: var(--backround-dark);
     font-size: .875rem;
@@ -76,7 +77,8 @@ section{
 }
 #galery-fourth-pic-heigth
 {
-    height: 40rem;
+    min-height: 40rem;
+    max-height: 50rem;
 }
 #galery-fifth-pic-heigth{
     max-height: 10rem;
@@ -137,6 +139,11 @@ section{
 #sec-menu a:link a:hover a:visited{
     text-decoration: none;
     color: white;
+}
+#header-img{
+padding: 0%;
+max-height: 40rem;
+overflow: hidden;
 }
 
 
