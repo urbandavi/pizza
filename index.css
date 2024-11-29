@@ -41,6 +41,7 @@ section{
     padding-bottom: 2.5rem;
 }
 nav{background-image: url(images/pizza.jpg);}
+
 .section-light{
     background-color: var(--backround-light);
 }
@@ -146,8 +147,8 @@ padding: 0%;
 max-height: 40rem;
 overflow: hidden;
 }
-#header-heigth{
-    max-height: 20rem;
+#header-height{
+    height: 100%;
 }
 
 
