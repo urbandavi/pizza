@@ -85,19 +85,17 @@ nav{
 }
 .galery-second-pic-heigth{
     height: 18.28rem;
+    
 }
 .navbar-collapse{
     flex-basis: 100%;
     flex-grow: 0;
     align-items: center;
 }
-.container-sm{
-    width: 80%;
-}
 #galery-fourth-pic-heigth
 {
-    min-height: 34rem;
-    max-height: 44rem;
+    min-height: 37rem;
+    max-height: 47rem;
 }
 #galery-fifth-pic-heigth{
     
@@ -167,9 +165,11 @@ max-height: 40rem;
 overflow: hidden;
 }
 #header-height{
-    height: 50vw;
+    height: 47vw;
 }
-
+#webdone{
+    text-decoration: underline;
+}
 
 
 /* {
