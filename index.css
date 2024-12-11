@@ -84,7 +84,7 @@ nav{
     justify-content: center;
 }
 .galery-second-pic-heigth{
-    height: 18.28rem;
+    min-height: 18.28rem;
     
 }
 .navbar-collapse{
