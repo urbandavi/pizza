@@ -74,9 +74,13 @@ nav{
     --bs-navbar-padding-y: 2rem;
 }
 .nd_sec_button{
-    width: 14rem;
-    padding: .875rem 2rem;
-    border: solid white 1px;
+    width: 100%;
+    padding: .7rem 2rem;
+    --bs-btn-font-size: 1.3rem;
+    --bs-btn-font-weight: 300;
+    --bs-btn-border-radius: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .button-container{
     width: 100%;
@@ -94,6 +98,7 @@ nav{
 }
 #galery-fourth-pic-heigth
 {
+    
     min-height: 37rem;
     max-height: 47rem;
 }
