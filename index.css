@@ -43,7 +43,15 @@ section{
 header{
     background-image: url(images/pizza.jpg);
     background-size: cover;
+    background-position: center;
+    height: 50vw;
 }
+
+@media only screen and (max-width: 455px) {
+    header{
+        height: 230px;
+    }
+  }
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
     background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
@@ -170,7 +178,7 @@ max-height: 40rem;
 overflow: hidden;
 }
 #header-height{
-    height: 47vw;
+    
 }
 #webdone{
     text-decoration: underline;
