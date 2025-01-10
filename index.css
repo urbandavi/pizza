@@ -56,6 +56,9 @@ header{
     --bs-bg-opacity: 0;
     background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 } 
+.navbar-toggler{
+    border: 0px;
+}
 
 .section-light{
     background-color: var(--backround-light);
@@ -95,14 +98,14 @@ nav{
     display: flex;
     justify-content: center;
 }
-.galery-second-pic-heigth{
-    min-height: 18.28rem;
-    
-}
 .navbar-collapse{
     flex-basis: 100%;
     flex-grow: 0;
     align-items: center;
+}
+.galery-second-pic-heigth{
+    min-height: 18.28rem;
+    
 }
 #galery-fourth-pic-heigth
 {

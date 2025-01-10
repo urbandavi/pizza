@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+    
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,38 +13,52 @@
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 6;
     background-image: url(images/pizza.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
 .two {
     grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-image: url(images/vegyes_zöldségsaláta_oliviaval.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .three {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-image: url(images/pizza_2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .four {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 7;
+    background-image: url(images/vörösboros_marhapecsenye.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .five {
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-image: url(images/előétel.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.wrapper div {
-    background-color: blue;
+@media only screen and (min-width:500px) {
+    
 }
